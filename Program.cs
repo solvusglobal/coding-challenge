@@ -82,7 +82,7 @@ public class Lion {
 		HungerLevel += 10;
 	}
 	
-	public void Eat(Meat meat) {
+	public void Eat(Food meat) {
 	  	HungerLevel -= 10;
 		Console.WriteLine("Crunch chrunch");
 	}
@@ -95,7 +95,7 @@ public class Giraffe {
 		HungerLevel += 20;
 	}
 	
-	public void Eat(Grass grass) {
+	public void Eat(Food grass) {
 	  	HungerLevel -= 5;
 		Console.WriteLine("Nom nom");
 	}
